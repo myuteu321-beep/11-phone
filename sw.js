@@ -3,7 +3,7 @@
    - 파일을 고쳐서 다시 올렸을 때 옛날 화면이 남지 않도록, 항상 인터넷에서 먼저 받아오고
      인터넷이 안 될 때만 저장해 둔 것을 보여줘요.
    - 영상(mp4)은 저장하지 않아요. */
-var CACHE = "virtual-phone-v1";
+var CACHE = "virtual-phone-v2";
 
 self.addEventListener("install", function () { self.skipWaiting(); });
 
